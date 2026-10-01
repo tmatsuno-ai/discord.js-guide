@@ -3,7 +3,7 @@ const client = new discord.Client({
     intents: Object.values(discord.GatewayIntentBits)
 });
 
-const ROLE_ID = 'ロールID';
+const ROLE_ID = '1555225972947820564';
 
 client.on(discord.Events.ClientReady, async () => {
     console.log('Logged in as ' + client.user.tag);
